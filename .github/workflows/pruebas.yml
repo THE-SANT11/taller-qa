@@ -20,5 +20,3 @@ jobs:
         run: |
           test 1 -eq 1
           echo "La verificacion ha terminado"
-permissions:
-  contents: read
