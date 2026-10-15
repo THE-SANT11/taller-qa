@@ -5,6 +5,9 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   verificar:
     runs-on: ubuntu-latest
@@ -17,3 +20,5 @@ jobs:
         run: |
           test 1 -eq 1
           echo "La verificacion ha terminado"
+permissions:
+  contents: read
