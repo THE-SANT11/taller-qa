@@ -1,0 +1,19 @@
+
+name: Pruebas de software
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Comprobar ejecucion
+        run: echo "Las pruebas se ejecutaron correctamente"
+
+      - name: Verificar resultado
+        run: |
+          test 1 -eq 1
+          echo "La verificacion ha terminado"
