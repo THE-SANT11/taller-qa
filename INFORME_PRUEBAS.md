@@ -8,9 +8,9 @@ Seleccionar y documentar pruebas ágiles, pruebas en la nube y pruebas de seguri
 
 Este apartado debe completarse con la descripción del caso trabajado en las unidades 1 y 2, incluyendo el funcionamiento del sistema y los errores identificados originalmente.
 
-**Caso de estudio:** [Escribir aquí la descripción del caso de las unidades 1 y 2].
+**Caso de estudio: Se desarrolla una actividad de pruebas de software utilizando un repositorio de GitHub para configurar la automatización de comprobaciones y analizar posibles problemas de calidad y seguridad. Se emplean GitHub Actions, Dependabot y CodeQL para verificar la ejecución de los flujos de trabajo y detectar posibles vulnerabilidades.
 
-**Errores originales:** [Indicar aquí los errores descritos en el caso].
+**Errores identificados durante la actividad: Se detectó un error de configuración en el archivo pruebas.yml, debido a que la propiedad permissions estaba definida dos veces. Además, CodeQL identificó una alerta relacionada con los permisos del flujo de trabajo, que fue revisada y motivó una modificación de la configuración. Se comprobó posteriormente que las ejecuciones de GitHub Actions finalizaran correctamente.
 
 ## 3. Herramientas seleccionadas
 
